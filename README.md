@@ -8,9 +8,6 @@ TXT file of AreaSAS must be named as: "SASA_" + PDB ID code
 TXT file of AreaSES must be named as: "SESA_" + PDB ID code
 
 Usage:
-bash
-'
-'
-python sasa_chimera_calculation.py "C:\path\"
+bash"python sasa_chimera_calculation.py "C:\path\""
 
 
