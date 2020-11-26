@@ -13,7 +13,7 @@ Usage:
 python sasa_chimera_calculation.py "C:\path\"
 </code>
 
-#percentage_proportion.py
+# percentage_proportion.py
 
-#percentage_exposition.py
+# percentage_exposition.py
 
