@@ -71,12 +71,6 @@ def main():
 	            
 	        with open(str(code)+'_chimera_SASA.txt', 'w') as fout:
 	            fout.write('Residue' + '\t' + 'Ratio(%)' + '\n')
-
-	            for i in range(len(code_list)):
-	                if code == '6URP':
-	                    print(f'realSASA = {realSASA}')
-	                fout.write(code_list[i] + '\t' + str(realSASA[i]) + '\n')
-
-
+	            
 if __name__ == "__main__":
 	main()

@@ -1,9 +1,9 @@
 import os
 import sys
 
-storage = sys.argv[0] #'C:/Users/maria/Dropbox/defensin/SASA chimera calculation/bonded'
+storage = sys.argv[0] 
 files = os.listdir(storage)
-fout_name = sys.argv[1] # "output_exposition_bonded.txt"
+fout_name = sys.argv[1] 
 fout = open(os.path.join(storage, fout_name),'w')
 
 def main():
