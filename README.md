@@ -30,4 +30,22 @@ Usage:
 <code>
   python percentage_exposition.py "C:\path\" <output.txt>
   </code>
+  
+# aminoacid_proportion.py
+Algorithm which receives output files from SASA_chimera_calculation.py or GETAREA.pl (available on curie.utmb.edu/getarea.html), and calculates the percentage proportion of amino acid residues classified as short, long or neutro chain in a protein.
+
+Usage:
+
+<code>
+  python percentage_proportion.py "C:\path\" <output.txt>
+  </code>
+
+# aminoacid_exposition.py
+Algorithm which receives output files from SASA_chimera_calculation.py or GETAREA.pl (available on curie.utmb.edu/getarea.html), and calculates the arithmetic mean of percentage exposition values of amino acid residues classified as short, long or neutro chain in a protein.
+
+Usage:
+
+<code>
+  python aminoacid_exposition.py "C:\path\" <output.txt>
+  </code>
 
